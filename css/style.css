@@ -1,0 +1,247 @@
+body {
+      background-color: white; 
+      color: black;
+      font-family: 'Quattrocento', serif;
+      font-size: 1.25em;
+}
+@media (min-width:768px) {
+      body {
+            background-image: url('../images/background.jpg');
+            margin: 50px auto;
+            background-size:cover;
+      }
+}
+
+hr {
+      margin: 0;
+}
+
+table {
+      width: 100%;
+}
+
+th, button, .toast {
+      font-family: 'Quattrocento', serif;
+}
+
+tr {
+      border-bottom: 1px groove black;
+}
+
+td {
+      padding: 3px 0;
+}
+
+button {
+      background-color: #fff;
+      color: black;
+      border: 2px groove black;
+}
+button:hover {
+      background-color: black;
+      color: white;
+}
+
+.container {
+      background-color: rgb(255, 255, 255);
+      min-height: 100vh;
+}
+
+/* navbar */
+
+.name {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3rem;
+      font-weight: 700;
+      color: black;
+}
+/* .name span {
+      background-color: black;
+      color: #ffd703;
+      padding: 0 4px;
+} */
+
+.navbar {
+      --bs-navbar-active-color: white;
+}
+
+.nav-link {
+      font-family: 'Quattrocento', serif;
+      font-weight: 700;
+      color: black;
+      font-size: 1rem;
+}
+.nav-link:hover {
+      color: white;
+      background-color: black;
+}
+.active-text {
+      background-color: black;
+      color: white;
+      border: 0;
+}
+.navbar-toggler {
+      border: 0px;
+      color: #ffd703;
+}
+/* carousel */
+.carousel {
+      background-image: url('../images/table-top.png');
+      align-self: center;
+}
+
+.carousel-item {
+      max-height: 500px;
+}
+
+.carousel-item img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      margin: auto;
+}
+
+/* card */
+
+.card {
+      border-radius: 0;
+}
+
+.veg {
+      background-color: rgba(0, 253, 13, 0.2);
+}
+.non-veg {
+      background-color: rgba(253, 0, 0, 0.2);
+}
+
+@media (min-width:768px) {
+      .card-header {
+            height: 300px;
+      }
+}
+
+.veg-icon {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      border: 2px;
+      border-color: green;
+      border-style: groove;
+      border-radius: 2px;
+}
+.veg-icon-circle {
+      padding: 7px;
+      margin: 2px;
+      background-color: green;
+      border-radius: 50%;
+}
+
+.non-veg-icon {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      border: 2px;
+      border-style: groove;
+      border-color: red;
+      border-radius: 2px;
+}
+.non-veg-icon-circle {
+      padding: 7px;
+      margin: 3px;
+      border-radius: 50%;
+      background-color: red;
+}
+
+/* modal */
+.modal-content {
+      border-radius: 0;
+      background-color: white;
+}
+
+.modal-header, .modal-footer{
+      border-color: black;
+      font-weight: 700;
+      background-color: white;
+}
+.modal-header {
+      background-color: black;
+      color: white;
+      border-radius: 0;
+}
+
+.modal input {
+      width: 80%;
+      max-width: 250px;
+      padding: 3px;
+      font-size: 1rem;
+      border: 2px groove black;
+      margin: 5px auto;
+      border-radius: 0;
+      color: black;
+}
+
+.modal input::placeholder {
+      color: black;
+}
+
+.modal button {
+      font-size: 1.25rem;
+}
+
+/* toast */
+.toast, .toast-head {
+      font-size: 1.25rem;
+      border: 3px groove black;
+      border-radius: 0;
+}
+
+#set-date {
+      background-color: black;
+      color: #ffd703;
+      padding: 4px;
+      border: 0;
+}
+/*
+.occupied {
+      color: green;
+      margin-top: 8px;
+}
+.occupied span {
+      background-color: green;
+      padding: 5px 10px;
+}
+
+.unoccupied {
+      color: red;
+}
+.unoccupied span {
+      background-color: red;
+      padding: 5px 10px;
+} */
+
+/* seating arrangement */
+#reservation {
+      text-align: center;
+}
+
+
+/* .seating-arrangement {
+      background-color: rgba(253, 0, 0, 0.2);
+      padding: 10px 0;
+}
+
+.seat img {
+      max-width: 90px;
+      width: 13vw;
+      height: auto;
+      background-color: green;
+      padding: 8px;
+      border-radius: 50%;
+      margin: 8px;
+} */
+
+/* @media (min-width:768px) {
+      .seat img {
+            
+      }
+} */
